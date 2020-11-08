@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    width: 100%;
+}
+
+#navbarBlock, #title {
+    display: inline-block;
+}
+
+#title {
+    margin: 8pt;
+}
+
+#navbarBlock {
+    float: right;
+    margin: 8pt;
+}
+
+#table-section {
+    margin-top: 16pt;
+    margin-left: 8pt;
+    margin-right: 8pt;
+    text-align: center;
+}
+
+.headerCol {
+    font-weight: bold;
+}
+
+#urlCol {
+    column-width: 10%;
+    max-width: 10%;
+}
